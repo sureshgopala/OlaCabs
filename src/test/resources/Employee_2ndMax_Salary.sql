@@ -13,4 +13,4 @@ INSERT INTO students VALUES (4, 'Doe', 'F', 500);
 
 
 -- fetch some values
-SELECT min marks from students(SELECT Top(2) from students where marks );
+SELECT min marks from students(SELECT Top 2 from students where marks );
